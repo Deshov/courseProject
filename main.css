@@ -1,0 +1,41 @@
+body {
+    background-color:rgb(243, 235, 235);
+    margin: 0;
+    padding: 0;
+}  
+
+div{
+    border: 2px solid black;
+}
+.topLine{
+    height: 40%;
+}
+.buttons{
+    height: 60%;
+    
+}    
+.topLine,.buttons{
+    background-color: rgb(109, 38, 190);
+}
+
+#top{
+    height: 20vh;   
+}
+#middle{
+    height: 75vh;
+    background-image: url("./images/mainPageBackground.jpg");
+    background-size: cover;
+    
+}
+#bottom{
+    height: 5vh;
+}
+#top,#bottom{
+    background-color: rgb(32, 22, 22);   
+}
+#homePageIcon{
+    position: absolute;
+    top: -16px;
+    left: -15px;
+    
+}
